@@ -17,6 +17,8 @@ public class VideoControl : MonoBehaviour {
         if (Physics.Raycast(ray, out hit, 1, layer_mask)) {
             print("There is something in front of the object!");
             scrMedia.Play();
+        } else {
+            scrMedia.Pause();
         }
         
     }

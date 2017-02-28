@@ -347,6 +347,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bbc81c72cca24aa43a0d8e4aeda46296, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scrMedia: {fileID: 333340446}
 --- !u!4 &139
 Transform:
   m_ObjectHideFlags: 0
@@ -2639,6 +2640,12 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 330481502}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &333340446 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 11400000, guid: f0082db35c5d5614f9e8c63a7f86aa4e,
+    type: 2}
+  m_PrefabInternal: {fileID: 1629953136}
+  m_Script: {fileID: 11500000, guid: fb521e9ace49d8546a83f420a0debd12, type: 3}
 --- !u!1 &346630081
 GameObject:
   m_ObjectHideFlags: 0
