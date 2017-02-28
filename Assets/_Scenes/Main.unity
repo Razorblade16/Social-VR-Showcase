@@ -136,7 +136,7 @@ GameObject:
   - component: {fileID: 289}
   - component: {fileID: 263}
   - component: {fileID: 315}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Slide_rounded02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13740,7 +13740,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: f0082db35c5d5614f9e8c63a7f86aa4e, type: 2}
       propertyPath: m_strFileName
-      value: AltspaceVR Highlight Reel.mp4
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: f0082db35c5d5614f9e8c63a7f86aa4e, type: 2}
       propertyPath: m_IsActive
@@ -13765,7 +13765,7 @@ Prefab:
     - target: {fileID: 11400000, guid: f0082db35c5d5614f9e8c63a7f86aa4e, type: 2}
       propertyPath: m_TargetMaterial.Array.data[0]
       value: 
-      objectReference: {fileID: 21}
+      objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: f0082db35c5d5614f9e8c63a7f86aa4e, type: 2}
       propertyPath: m_objResize.Array.data[0]
       value: 
