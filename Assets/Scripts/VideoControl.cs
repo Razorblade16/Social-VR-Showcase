@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class VideoControl : MonoBehaviour {
 
-    public MediaPlayerCtrl scrMedia;
+    bool rayHit = false;
+    GameObject tempGameObject;
 
     void FixedUpdate() {
 
@@ -15,10 +16,17 @@ public class VideoControl : MonoBehaviour {
         RaycastHit hit;
 
         if (Physics.Raycast(ray, out hit, 1, layer_mask)) {
-            print("There is something in front of the object!");
-            scrMedia.Play();
+            tempGameObject = hit.transform.gameObject;
+            tempGameObject.SendMessage("HitByRay");
+            rayHit = true;
         } else {
-            scrMedia.Pause();
+            if (rayHit) {
+                tempGameObject.SendMessage("Pause");
+                rayHit = false;
+            } else {
+                return;
+            }
+            
         }
         
     }
