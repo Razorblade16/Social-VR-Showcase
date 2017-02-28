@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class VideoControl : MonoBehaviour {
 
+    public MediaPlayerCtrl scrMedia;
+
     void FixedUpdate() {
 
         int layer_mask = LayerMask.GetMask("Video Player");
@@ -12,9 +14,10 @@ public class VideoControl : MonoBehaviour {
         Ray ray = new Ray(transform.position, transform.forward);
         RaycastHit hit;
 
-        if (Physics.Raycast(ray, out hit, 1, layer_mask))
+        if (Physics.Raycast(ray, out hit, 1, layer_mask)) {
             print("There is something in front of the object!");
-
+            scrMedia.Play();
+        }
         
     }
 }
