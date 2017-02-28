@@ -3252,7 +3252,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fb521e9ace49d8546a83f420a0debd12, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_strFileName: 
+  m_strFileName: HF.mp4
   m_TargetMaterial:
   - {fileID: 510779611}
   m_fVolume: 0.1
@@ -3558,6 +3558,7 @@ GameObject:
   - component: {fileID: 510779614}
   - component: {fileID: 510779613}
   - component: {fileID: 510779612}
+  - component: {fileID: 510779616}
   m_Layer: 8
   m_Name: Slide_08
   m_TagString: Untagged
@@ -3630,6 +3631,18 @@ Transform:
   m_Father: {fileID: 2137227218}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 120, z: 0}
+--- !u!114 &510779616
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 510779611}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc8d94c8f7dd4a946bff499c56dfb4b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scrMedia: {fileID: 452343658}
 --- !u!1001 &514832503
 Prefab:
   m_ObjectHideFlags: 0
@@ -8066,10 +8079,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fb521e9ace49d8546a83f420a0debd12, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_strFileName: 
+  m_strFileName: RPO.mp4
   m_TargetMaterial:
   - {fileID: 1470437533}
-  m_fVolume: 0.1
+  m_fVolume: 0.2
   m_bFullScreen: 0
   m_bSupportRockchip: 0
   m_ScaleValue: 0
@@ -12618,6 +12631,7 @@ GameObject:
   - component: {fileID: 1470437537}
   - component: {fileID: 1470437536}
   - component: {fileID: 1470437535}
+  - component: {fileID: 1470437538}
   m_Layer: 8
   m_Name: Slide_10
   m_TagString: Untagged
@@ -12690,6 +12704,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1470437533}
   m_Mesh: {fileID: 4300000, guid: d61e71c133e7f054181c5d18481dd4fd, type: 3}
+--- !u!114 &1470437538
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1470437533}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc8d94c8f7dd4a946bff499c56dfb4b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scrMedia: {fileID: 905790169}
 --- !u!1 &1472471063
 GameObject:
   m_ObjectHideFlags: 0

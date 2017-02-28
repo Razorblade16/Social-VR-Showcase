@@ -8,9 +8,7 @@ public class VideoControl : MonoBehaviour {
     GameObject tempGameObject;
 
     void FixedUpdate() {
-
         int layer_mask = LayerMask.GetMask("Video Player");
-        //Vector3 fwd = transform.TransformDirection(Vector3.forward);
 
         Ray ray = new Ray(transform.position, transform.forward);
         RaycastHit hit;

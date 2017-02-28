@@ -10,7 +10,7 @@ public class VideoPlayer : MonoBehaviour {
         scrMedia.Play();
     }
 
-    public void Pause() {
+    void Pause() {
         scrMedia.Pause();
     }
 }
