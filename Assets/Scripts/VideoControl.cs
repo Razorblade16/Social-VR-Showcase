@@ -6,7 +6,9 @@ public class VideoControl : MonoBehaviour {
 
     int layer_mask1;
     bool rayHit = false;
+
     GameObject tempGameObject;
+
 
     private void Start() {
         layer_mask1 = LayerMask.GetMask("Player");
@@ -16,7 +18,7 @@ public class VideoControl : MonoBehaviour {
         Ray ray = new Ray(transform.position, transform.forward);
         RaycastHit hit;
 
-        if (Physics.Raycast(ray, out hit, 1, layer_mask1)) {
+        if (Physics.Raycast(ray, out hit, 1, layer_mask1) && rayHit == false ) {
             tempGameObject = hit.transform.gameObject;
             tempGameObject.SendMessage("HitByRay");
             rayHit = true;
