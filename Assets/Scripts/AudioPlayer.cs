@@ -4,20 +4,26 @@ using UnityEngine;
 
 public class AudioPlayer : MonoBehaviour {
 
+    bool isPlaying = false;
     private GvrAudioSource audioSource;
-    // Use this for initialization
-
-    AudioClip clip;
+    
 	void Start () {
         audioSource = GetComponent<GvrAudioSource>();
-        clip = GetComponent<GvrAudioSource>().clip;
 	}
 
     void HitByRay() {
-        audioSource.Play();
+        if (isPlaying == false) {
+            audioSource.Play();
+            isPlaying = true;
+        }
+        
     }
 
     void Pause() {
-        audioSource.Pause();
+        if (isPlaying) {
+            audioSource.Pause();
+            isPlaying = false;
+        }
+        
     }
 }

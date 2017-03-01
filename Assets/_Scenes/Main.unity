@@ -100,7 +100,7 @@ GameObject:
   - component: {fileID: 288}
   - component: {fileID: 262}
   - component: {fileID: 314}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Slide_04
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -118,7 +118,7 @@ GameObject:
   - component: {fileID: 289}
   - component: {fileID: 263}
   - component: {fileID: 315}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Slide_02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -138,7 +138,6 @@ GameObject:
   - component: {fileID: 316}
   - component: {fileID: 25}
   - component: {fileID: 24}
-  - component: {fileID: 26}
   m_Layer: 8
   m_Name: Slide_01
   m_TagString: Untagged
@@ -189,86 +188,6 @@ MonoBehaviour:
   sourceMinDistance: 1
   hrtfEnabled: 1
   audioSource: {fileID: 0}
---- !u!82 &26
-AudioSource:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 23}
-  m_Enabled: 0
-  serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 66b5cd6e801a2ed4b954c2b108a45661, type: 3}
-  m_PlayOnAwake: 0
-  m_Volume: 1
-  m_Pitch: 1
-  Loop: 1
-  Mute: 0
-  Spatialize: 0
-  SpatializePostEffects: 0
-  Priority: 128
-  DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
-  Pan2D: 0
-  rolloffMode: 0
-  BypassEffects: 0
-  BypassListenerEffects: 0
-  BypassReverbZones: 0
-  rolloffCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 2
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-    - serializedVersion: 2
-      time: 1
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  panLevelCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 2
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 0
-  spreadCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 2
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  reverbZoneMixCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 2
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 0
 --- !u!1 &125
 GameObject:
   m_ObjectHideFlags: 0
@@ -1394,7 +1313,7 @@ GameObject:
   - component: {fileID: 95504980}
   - component: {fileID: 95504979}
   - component: {fileID: 95504978}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Slide_11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1724,7 +1643,7 @@ GameObject:
   - component: {fileID: 159206821}
   - component: {fileID: 159206820}
   - component: {fileID: 159206819}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Slide_07
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11145,7 +11064,7 @@ GameObject:
   - component: {fileID: 1270125467}
   - component: {fileID: 1270125466}
   - component: {fileID: 1270125465}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Slide_03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15853,7 +15772,7 @@ GameObject:
   - component: {fileID: 1797636011}
   - component: {fileID: 1797636010}
   - component: {fileID: 1797636009}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Slide_09
   m_TagString: Untagged
   m_Icon: {fileID: 0}
