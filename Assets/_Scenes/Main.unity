@@ -100,7 +100,7 @@ GameObject:
   - component: {fileID: 288}
   - component: {fileID: 262}
   - component: {fileID: 314}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Slide_04
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -118,7 +118,7 @@ GameObject:
   - component: {fileID: 289}
   - component: {fileID: 263}
   - component: {fileID: 315}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Slide_02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -139,7 +139,7 @@ GameObject:
   - component: {fileID: 25}
   - component: {fileID: 24}
   - component: {fileID: 26}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: Slide_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -173,7 +173,7 @@ MonoBehaviour:
   directivitySharpness: 1
   listenerDirectivityAlpha: 0
   listenerDirectivitySharpness: 1
-  gainDb: 0
+  gainDb: 8.8
   occlusionEnabled: 0
   playOnAwake: 0
   sourceClip: {fileID: 8300000, guid: 66b5cd6e801a2ed4b954c2b108a45661, type: 3}
@@ -1394,7 +1394,7 @@ GameObject:
   - component: {fileID: 95504980}
   - component: {fileID: 95504979}
   - component: {fileID: 95504978}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Slide_11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1724,7 +1724,7 @@ GameObject:
   - component: {fileID: 159206821}
   - component: {fileID: 159206820}
   - component: {fileID: 159206819}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Slide_07
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2592,7 +2592,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6dbca64e524ea44f9b26142ec59aca8a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bypassRoomEffects: 0
+  bypassRoomEffects: 1
   directivityAlpha: 0
   directivitySharpness: 1
   listenerDirectivityAlpha: 0
@@ -3685,7 +3685,7 @@ GameObject:
   - component: {fileID: 510779613}
   - component: {fileID: 510779612}
   - component: {fileID: 510779616}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: Slide_08
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8707,7 +8707,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &940061830
 Transform:
   m_ObjectHideFlags: 0
@@ -9666,7 +9666,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6dbca64e524ea44f9b26142ec59aca8a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bypassRoomEffects: 0
+  bypassRoomEffects: 1
   directivityAlpha: 0
   directivitySharpness: 1
   listenerDirectivityAlpha: 0
@@ -9677,7 +9677,7 @@ MonoBehaviour:
   sourceClip: {fileID: 8300000, guid: 31f7e58e795d1554f92604b3d72570f6, type: 3}
   sourceLoop: 1
   sourceMute: 0
-  sourcePitch: 2.04
+  sourcePitch: 1
   sourcePriority: 128
   sourceDopplerLevel: 1
   sourceSpread: 0
@@ -10527,7 +10527,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6dbca64e524ea44f9b26142ec59aca8a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bypassRoomEffects: 0
+  bypassRoomEffects: 1
   directivityAlpha: 0
   directivitySharpness: 1
   listenerDirectivityAlpha: 0
@@ -10560,7 +10560,7 @@ GameObject:
   - component: {fileID: 1192520751}
   - component: {fileID: 1192520750}
   - component: {fileID: 1192520753}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: Slide_05
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11016,7 +11016,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1247820271}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1d2722c2401e34d51bf5b473ef7aeefb, type: 3}
   m_Name: 
@@ -11145,7 +11145,7 @@ GameObject:
   - component: {fileID: 1270125467}
   - component: {fileID: 1270125466}
   - component: {fileID: 1270125465}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Slide_03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12758,7 +12758,7 @@ GameObject:
   - component: {fileID: 1470437536}
   - component: {fileID: 1470437535}
   - component: {fileID: 1470437538}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: Slide_10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14521,7 +14521,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6dbca64e524ea44f9b26142ec59aca8a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bypassRoomEffects: 0
+  bypassRoomEffects: 1
   directivityAlpha: 0
   directivitySharpness: 1
   listenerDirectivityAlpha: 0
@@ -15853,7 +15853,7 @@ GameObject:
   - component: {fileID: 1797636011}
   - component: {fileID: 1797636010}
   - component: {fileID: 1797636009}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Slide_09
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16000,7 +16000,7 @@ GameObject:
   - component: {fileID: 1828379959}
   - component: {fileID: 1828379958}
   - component: {fileID: 1828379962}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: Slide_06
   m_TagString: Untagged
   m_Icon: {fileID: 0}

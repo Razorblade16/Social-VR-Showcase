@@ -8,16 +8,25 @@ public class AudioPlayer : MonoBehaviour {
     // Use this for initialization
 
     AudioClip clip;
+    bool isPlaying = false;
 	void Start () {
         audioSource = GetComponent<GvrAudioSource>();
-        clip = GetComponent<GvrAudioSource>().clip;
+        //clip = GetComponent<AudioSource>().clip;
 	}
 
     void HitByRay() {
-        audioSource.Play();
+        if (isPlaying == false) {
+            audioSource.Play();
+            isPlaying = true;
+        }
+        
     }
 
     void Pause() {
-        audioSource.Pause();
+        if (isPlaying) {
+            audioSource.Pause();
+            isPlaying = false;
+        }
+        
     }
 }

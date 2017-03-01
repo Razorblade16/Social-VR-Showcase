@@ -6,11 +6,21 @@ public class VideoPlayer : MonoBehaviour {
 
     public MediaPlayerCtrl scrMedia;
 
+    bool isPlaying = false;
+
     void HitByRay() {
-        scrMedia.Play();
+        if (isPlaying == false) {
+            scrMedia.Play();
+            isPlaying = true;
+        }
+        
     }
 
     void Pause() {
-        scrMedia.Pause();
+        if (isPlaying) {
+            scrMedia.Pause();
+            isPlaying = false;
+        }
+       
     }
 }
