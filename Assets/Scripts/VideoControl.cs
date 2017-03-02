@@ -18,20 +18,12 @@ public class VideoControl : MonoBehaviour {
         Ray ray = new Ray(transform.position, transform.forward);
         RaycastHit hit;
 
-        if (Physics.Raycast(ray, out hit, 1, layer_mask1) && rayHit == false) {
+        if (Physics.Raycast(ray, out hit, 1, layer_mask1)) {
             tempGameObject = hit.transform.gameObject;
             tempGameObject.SendMessage("HitByRay");
-            rayHit = true;
-        } else {
-            if (rayHit) {
+        } else if (tempGameObject != null) {
                 tempGameObject.SendMessage("Pause");
-                rayHit = false;
-            } else {
-                return;
-            }
-
-        }
+            
+        }  
     }
-
-   
 }

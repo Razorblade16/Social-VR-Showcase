@@ -6,12 +6,13 @@ public class AudioPlayer : MonoBehaviour {
 
     bool isPlaying = false;
     private GvrAudioSource audioSource;
-    
-	void Start () {
+
+
+    void Start () {
         audioSource = GetComponent<GvrAudioSource>();
 	}
 
-    void HitByRay() {
+   void HitByRay() {
         if (isPlaying == false) {
             audioSource.Play();
             isPlaying = true;
@@ -19,7 +20,7 @@ public class AudioPlayer : MonoBehaviour {
         
     }
 
-    void Pause() {
+    public void Pause() {
         if (isPlaying) {
             audioSource.Pause();
             isPlaying = false;
