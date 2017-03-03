@@ -1,1 +1,3 @@
-Google VR SDK V1.2
+#Social VR Showcase
+
+##Installation
