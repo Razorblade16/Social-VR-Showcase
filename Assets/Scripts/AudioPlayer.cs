@@ -12,7 +12,7 @@ public class AudioPlayer : MonoBehaviour {
         audioSource = GetComponent<GvrAudioSource>();
 	}
 
-   void HitByRay() {
+   public void HitByRay() {
         if (isPlaying == false) {
             audioSource.Play();
             isPlaying = true;

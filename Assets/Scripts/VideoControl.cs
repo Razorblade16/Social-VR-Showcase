@@ -8,9 +8,11 @@ public class VideoControl : MonoBehaviour {
 
     GameObject tempGameObject;
     int layer_mask1;
+    int layer_mask2;
 
     private void Start() {
-        layer_mask1 = LayerMask.GetMask("Player");
+        layer_mask1 = LayerMask.GetMask("AudioPlayer");
+        layer_mask2 = LayerMask.GetMask("VideoPlayer");
     }
 
 
@@ -20,7 +22,12 @@ public class VideoControl : MonoBehaviour {
 
         if (Physics.Raycast(ray, out hit, 1, layer_mask1)) {
             tempGameObject = hit.transform.gameObject;
-            tempGameObject.SendMessage("HitByRay");
+            tempGameObject.GetComponent<AudioPlayer>().HitByRay();
+            //tempGameObject.SendMessage("HitByRay");
+        } else if (Physics.Raycast(ray, out hit, 1, layer_mask2)) {
+            tempGameObject = hit.transform.gameObject;
+            tempGameObject.GetComponent<VideoPlayer>().HitByRay();
+
         } else if (tempGameObject != null) {
                 tempGameObject.SendMessage("Pause");
             

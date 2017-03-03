@@ -6,11 +6,11 @@ public class VideoPlayer : MonoBehaviour {
 
     public MediaPlayerCtrl scrMedia;
 
-    void HitByRay() {
+    public void HitByRay() {
         scrMedia.Play();
     }
 
-    void Pause() {
+    public void Pause() {
         scrMedia.Pause();
     }
 }
