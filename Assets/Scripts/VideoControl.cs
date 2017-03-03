@@ -23,7 +23,6 @@ public class VideoControl : MonoBehaviour {
         if (Physics.Raycast(ray, out hit, 1, layer_mask1)) {
             tempGameObject = hit.transform.gameObject;
             tempGameObject.GetComponent<AudioPlayer>().HitByRay();
-            //tempGameObject.SendMessage("HitByRay");
         } else if (Physics.Raycast(ray, out hit, 1, layer_mask2)) {
             tempGameObject = hit.transform.gameObject;
             tempGameObject.GetComponent<VideoPlayer>().HitByRay();
